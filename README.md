@@ -19,6 +19,16 @@ Into directory
 cd i2p.www
 ```
 
+Set variable -d to detached when deployment done
+
+in 'site-updater-docker.sh'
+
+
+```
+i2p_www_docker_run_args="-d"
+```
+
+
 Deployment
 
 ```
