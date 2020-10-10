@@ -21,18 +21,18 @@ cd i2p.www
 
 Set variable -d to detached when deployment done
 
-in 'site-updater-docker.sh'
-
+In file site-updater-docker.sh add line
 
 ```
 i2p_www_docker_run_args="-d"
 ```
-
 
 Deployment
 
 ```
 ./site-updater-docker.sh
 ```
+
+Finally, you have a web service on the container in port 8090. 
 
 
