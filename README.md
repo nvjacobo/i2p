@@ -10,7 +10,7 @@ Requirements
 Cloning the repository
 
 ```
-$git clone https://github.com/i2p/i2p.www/
+git clone https://github.com/i2p/i2p.www/
 ```
 
 Into directory 
